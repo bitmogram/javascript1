@@ -31,3 +31,5 @@ var getTweetDataAsync; //Labling :) This is the variable that gets the tweets fr
   //curly brackets add an indent in your js.
   var myName;
 }
+
+var myGoals = "Testing terminal"
