@@ -1,6 +1,6 @@
 //Take Home Assignment.
 
-let favColor = prompt('what is your name?');
+let name = prompt('what is your name?');
 let favColor = prompt("Tell me your favorite color", "Please use");
 
 if(name && name !== '') {
@@ -12,10 +12,11 @@ switch (favColor.toLowerCase()) {
     //...
   default:
     alert('You did not give me a valid color!');
+  }
 } else {
   alert('You suck!');
 }
-}
+
 //Beginning of day 4 notes!
 
 let myArray = []; //Most basic form of myArray
@@ -43,18 +44,18 @@ myFavs.unshift("Faith Herndon"); //unshift adds something to the beginning of th
 
 //POP example
 myFavs.pop(); //the brackets are empty becuase the function says find the last thing in the array and remove it.
-console.log(lastMember);
+// console.log(lastMember);
 
 
 /// SPLICE
 myFavs.splice(2); //1 argument: BEGINNING with that index.
-console.log(myFavs, removed);
+// console.log(myFavs, removed);
 //log is a function. functions have to have comma separated arguments.  That is why we put a comma between myFavs and removed.
 
 console.log(myFavs, 'BEFORE');
 myFavs.splice(1,2); //THE WAY THIS READS...STARTING AT INDEX ONE, I WANT TO REMOVE TWO THINGS. (AKA 2 ARGUMENTS)
 //Number (index or amount of objects), remove the sedond number of items (count).
-consolf.log(myFavs, 'AFTER');
+//consolf.log(myFavs, 'AFTER');
 
 
 myFavs.splice(3, 1, ["I got added!"]); //3 arguments starting at 3, remove 1 things, and then add my array.
@@ -73,12 +74,12 @@ let removeIndex = myFavs.indexOf(42);  //returns the index of 42 in our myFavs a
 //this would look for 42 inside of the array.
 //if 42 occurs more than once in the index, you will only find the first one.
 console.log(removeIndex);
-muyFavs.splice(removeIndex, 1);
+myFavs.splice(removeIndex, 1);
 
 //LAST INDEX OF
-let meNums = [1, 2, 3, 4, 5,];
+let myNums = [1, 2, 3, 4, 5,];
 console.log(myNums.reverse());  //takes everything in the number list and reverses it. This reverses the original array and changes it. from this point on your numbers would be reversed unless you reversed it again.
-console.log(nyNums);
+console.log(myNums);
 
 //SORT...sorts things alpha numerically... it only looks at the first letter or number when sorting.
 console.log(myFavs);
