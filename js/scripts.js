@@ -7,7 +7,7 @@ if(name && name !== '') {
 
 switch (favColor.toLowerCase()) {
   case 'blue':
-    alert('Hey ${name}, $favColor} is the best color');
+    alert(`Hey ${name}, ${favColor} is the best color`);
     break;
     //...
   default:
@@ -89,3 +89,8 @@ console.log(myFavs);
 //MULTI DIMENTIONAL arrays
 let multiDimensional = [['hello', 1], ['goodby', 0]]; //now lets access the 0 index in both these (nested) arrays.
 console.log(multiDimensional[0][1], multiDimensional[1][1]); //we went to the index of the universal array...then to the index of the array inside of it.
+
+
+let favAndLeast = [];
+favAndLeast.push(favMovies[0], favMovies[4]);
+console.log(favAndLeast);
