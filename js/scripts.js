@@ -42,3 +42,19 @@ for (let i = 0; i < 3; i++) {
 // })
 
 // this is called fat arrow =>
+
+const captains = [ 'kirk', 'picard', 'sisco', ];
+for (let captain of captains) {
+    console.log('hello captain ${captain}');
+}
+
+//for ...in is for innumerable objects. (For of is for arrays)
+const me = {
+  firstName: 'Maurice',
+  lastName: 'Graham',
+  age: 34
+};
+
+for (let property in me) {
+  console.log(me[property]);
+};
