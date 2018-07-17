@@ -58,3 +58,16 @@ const me = {
 for (let property in me) {
   console.log(me[property]);
 };
+
+
+//IN CLASS ASSIGNMENT
+favMovies =[];
+favorite = ["Star Wars: The Motion Picture", "Han Solo"];
+secondFav = ["Boondock Saints", "The twins"];
+thirdFav = ["Return of the King", "Aragorn"];
+fourthFav = ["Stay", "Ryan"];
+fifthFav = ["5th Element", "Corbin"];
+
+for (let i = 0; i < favMovies.length; i++) {
+  
+}
